@@ -16,6 +16,11 @@ export OUTPUT_PATH=$(pwd)/output.txt
 PS3="Choose the test target: "
 Projects=(
 	"exit"
+	"go/AnagramDifference"
+	"go/BalancingParentheses"
+	"go/CountBinarySubstrings"
+	"go/CountingPairs"
+	"go/FunWithAnagrams"
 	"IntermediateVerificationTest/Hotel-Construction"
 	"IntermediateVerificationTest/BitwiseAND"
 	"IntermediateVerificationTest/LargestArea"
