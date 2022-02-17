@@ -16,6 +16,7 @@ export OUTPUT_PATH=$(pwd)/output.txt
 PS3="Choose the test target: "
 Projects=(
 	"exit"
+	"Medium/FormingMagicSquare"
 	"EasyVerificationTest/RoadRepair"
 	"EasyVerificationTest/LongestSubarray"
 )
