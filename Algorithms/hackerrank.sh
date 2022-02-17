@@ -22,6 +22,7 @@ Projects=(
 	"go/CountingPairs"
 	"go/FunWithAnagrams"
 	"IntermediateVerificationTest/Hotel-Construction"
+	"IntermediateVerificationTest/FileRenaming"
 	"IntermediateVerificationTest/BitwiseAND"
 	"IntermediateVerificationTest/LargestArea"
 	"IntermediateVerificationTest/minOperations"
