@@ -6,6 +6,8 @@ import random
 import re
 import sys
 
+from bisect import bisect_right
+
 #
 # Complete the 'climbingLeaderboard' function below.
 #
@@ -23,22 +25,18 @@ def removeDuplicate(itemsList):
 		if key not in isExist:
 			result.append(item)
 			isExist.add(key)
-	return result
+	
+	return sorted(result)
 
 def climbingLeaderboard(ranked, player):
     # Write your code here
 	rankResult = []
 	rankedScoreList = removeDuplicate(ranked)
-	searchIndex = len(rankedScoreList)
-	for p in player:
-		for i in range(searchIndex-1, -1 , -1):
-			if p < rankedScoreList[i]:
-				rankResult.append(i+2)
-				searchIndex = i+1
-				break
-		if p > rankedScoreList[i]:
-			rankResult.append(i+1)
-			searchIndex = i+1
+
+	totalRanked = len(rankedScoreList)
+	for i in player:
+		biPos = bisect_right(rankedScoreList,i)
+		rankResult.append(totalRanked - biPos +1)
 
 	print(rankResult)
 	return rankResult
