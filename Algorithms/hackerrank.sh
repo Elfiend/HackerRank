@@ -16,6 +16,7 @@ export OUTPUT_PATH=$(pwd)/output.txt
 PS3="Choose the test target: "
 Projects=(
 	"exit"
+	"EasyVerificationTest/LongestSubarray"
 )
 
 select project in ${Projects[@]}
