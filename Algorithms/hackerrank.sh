@@ -21,6 +21,7 @@ Projects=(
 	"IntermediateVerificationTest/LargestArea"
 	"IntermediateVerificationTest/minOperations"
 	"Medium/FormingMagicSquare"
+	"Medium/ClimbingTheLeaderboard"
 	"EasyVerificationTest/RoadRepair"
 	"EasyVerificationTest/LongestSubarray"
 )
