@@ -27,6 +27,7 @@ Projects=(
 	"IntermediateVerificationTest/minOperations"
 	"Medium/FormingMagicSquare"
 	"Medium/ClimbingTheLeaderboard"
+	"Medium/ExtraLongFactorials"
 	"EasyVerificationTest/RoadRepair"
 	"EasyVerificationTest/LongestSubarray"
 )
